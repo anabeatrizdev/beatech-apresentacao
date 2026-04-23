@@ -1,0 +1,37 @@
+/* Design BeaTech - Minimalista e Acolhedor */
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: #fffaf6; 
+    color: #5d4037; 
+    margin: 0; 
+    line-height: 1.8; 
+}
+
+.hero { 
+    padding: 80px 20px 40px 20px; 
+    text-align: center; 
+    background: linear-gradient(135deg, #fce4ec, #f8bbd0); 
+}
+
+.hero h1 { font-size: 4rem; color: #ad1457; margin: 0; }
+
+.container { max-width: 700px; margin: 40px auto; padding: 20px; }
+
+.historia, .diferencial { 
+    background: white; padding: 40px; border-radius: 20px; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05); 
+    margin-bottom: 20px;
+}
+
+.hero-image img, .story-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 20px;
+    margin: 20px 0;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+footer { text-align: center; padding: 40px; font-size: 0.9rem; color: #8d6e63; }
+
+@media (max-width: 600px) { .hero h1 { font-size: 3rem; } }
